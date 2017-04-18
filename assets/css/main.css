@@ -1,0 +1,66 @@
+/* TYPOGRAPHY */
+
+body { 
+    font-family: 'Oxygen', Helvetica, Arial, sans-serif;
+
+}
+
+/* LAYOUT (everything but site nav) */
+
+.container {
+    margin: 5em 5em;
+}
+
+/* SITE NAV */
+
+.top-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: gray;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.top-nav nav {
+    background-color: green;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-nav nav a {
+    background-color: gray;
+    padding-right: 1.5em;
+    text-decoration: none;
+}
+
+.top-nav .site-title {
+    background-color: pink;
+    align-items: center;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.top-nav .spacer {
+    width: 25%;
+    background-color: orange;
+}
+
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
