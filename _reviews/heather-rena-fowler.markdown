@@ -6,8 +6,7 @@ categories:
 - reviews
 author-name: Heather Rena Fowler
 author-title: Professional Education Manager
-author-org: [tba]
-tags:
+author-org: '[tba]'
 ---
 
 Briana diligently served as my right hand employee for a year. We have since maintained a professional relationship as she is an intelligent confidant with a wealth of knowledge and experience.
