@@ -45,7 +45,24 @@ layout: default
   <header>
     <h1>Accolades</h1>
   </header>
-  <p>Praise from customers, etc goes here</p>
+
+{% for review in site.reviews %}
+
+  <article class="">
+    <header class="">
+      <h1 class="">{{review.title}}</h1>
+    </header>
+    <div class="">
+      {{review.content}}
+    </div>
+    <div class="">
+      {{review.author-name}}<br>
+      {{review.author-title}}, {{review.author-org}}
+    </div>
+  </article>
+
+{% endfor %}
+
 </section>
 
 <section class="container" id="contact">
