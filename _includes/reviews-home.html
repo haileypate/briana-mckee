@@ -5,13 +5,17 @@
   <header class="">
     <h1 class="">{{review.title}}</h1>
   </header>
+
   <div class="">
-    {{review.content}}
+  {{review.excerpt}}
+  <a href="{{review.url}}"> Read full review</a>
   </div>
+
   <div class="">
     {{review.author-name}}<br>
     {{review.author-title}}, {{review.author-org}}
   </div>
+
 </article>
 
 {% endfor %}
