@@ -1,12 +1,12 @@
 ---
 title: Highest recommendation for employment
 date: 2016-07-27 19:56:00 Z
-layout: review-single
 categories:
 - reviews
+layout: review-single
 author-name: Heather Rena Fowler
 author-title: Professional Education Manager
-author-org: '[tba]'
+author-org: tba
 ---
 
 Briana diligently served as my right hand employee for a year. We have since maintained a professional relationship as she is an intelligent confidant with a wealth of knowledge and experience.
