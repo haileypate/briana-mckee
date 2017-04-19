@@ -196,7 +196,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.6)
-  tzinfo-data
 
 RUBY VERSION
    ruby 2.0.0p648
