@@ -1,0 +1,188 @@
+/* TYPOGRAPHY */
+
+body { 
+    margin: 0px;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    display: block;
+
+}
+
+.container {
+    width: 100%;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+
+/* HOMEPAGE LAYOUT (everything but site nav) */
+
+/* welcome section */
+
+.intro {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: rgba(4,191,191,.1);
+}
+
+.intro img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.feature-wrapper {
+/*    background-color: purple;*/
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.feature {
+/*    background-color: blue;*/
+    width: 33%;
+    text-align: center;
+}
+
+.feature > * {
+    display: block;
+}
+
+.feature img {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.feature a {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: rgb(4,191,191);
+    text-decoration: none;
+    padding-top: 1.5em;
+}
+
+.feature p {
+    font-weight: 200;
+}
+
+
+/* other homepage sections */
+
+#about {
+/*    background-color: orange;*/
+    background-color: rgba(4,191,191,.1);
+}
+
+#experience {
+/*    background-color: yellow;*/
+    background-color: rgba(4,191,191,.1);
+}
+
+#accolades {
+/*    background-color: green;*/
+    background-color: rgba(4,191,191,.1);
+}
+
+#contact {
+/*    background-color: blue;*/
+    background-color: rgba(4,191,191,.1);
+}
+
+
+/* SITE NAV */
+
+.top-nav {
+/*  background-color: gray;*/
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 1em;
+    margin-bottom: 2em;
+}
+
+.top-nav .site-title {
+/*  background-color: pink;*/
+    font-size: 1.7em;
+    text-decoration: none;
+}
+
+.top-nav nav {
+/*  background-color: green;*/
+    display: none;
+}
+
+.top-nav nav a {
+/*  background-color: yellow;*/
+    font-size: 1.0em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+
+    .top-nav nav {
+        display: flex;
+        width: 100%;
+        margin-top: 1em;
+        justify-content: space-around;
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+    .top-nav {
+        margin-top: .75em;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 0em;
+    }   
+
+    .top-nav .site-title {
+        align-items: center;
+        min-width: 40%;
+        font-size: 1.3em;
+    }
+
+    .top-nav nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 0em;
+    }
+
+    .top-nav nav a {
+        font-size: 1em;
+        padding-right: 2em;
+        text-decoration: none;
+        text-transform: none;
+    }
+
+    .top-nav nav a:last-child {
+
+        margin-right: 20%;
+
+    }
+
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
