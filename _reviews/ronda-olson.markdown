@@ -1,14 +1,14 @@
 ---
 title: Compassionate and very knowledgeable
 date: 2015-01-07 19:56:00 Z
-layout: review-single
 categories:
 - reviews
-author-name: Ronda Olson
-author-title: Client
-author-org: 'Abu Dhabi, UAE'
 tags:
 - clients
+layout: review-single
+author-name: Ronda Olson
+author-title: Client
+author-org: Abu Dhabi, UAE
 ---
 
 Having had the privilege to travel and live all over the world, I have also been blessed to experience skin care from many different estheticians over two decades. Product lines and modern equipment make a big difference but the esthetician is without a doubt the critical component. The complexity of the skin and the issues that arise require a unique mix of knowledge, skill, and a desire to always keep learning with an open mind.
