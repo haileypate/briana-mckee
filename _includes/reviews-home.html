@@ -1,19 +1,19 @@
 
 {% for review in site.reviews %}
 
-<article class="">
+<article class="container">
   <header class="">
     <h1 class="">{{review.title}}</h1>
   </header>
 
-  <div class="">
-  {{review.excerpt}}
-  <a href="{{site.github.url}}/{{review.url}}"> Read full review</a>
+  <div class="excerpt">
+  <p>{{ review.excerpt | remove: '<p>' | remove: '</p>' }}
+  <a class="continue-reading" href="{{site.url}}/{{review.url}}"> ...read full review</a></p>
   </div>
 
-  <div class="">
-    {{review.author-name}}<br>
-    {{review.author-title}}, {{review.author-org}}
+  <div class="author">
+    <p class="author-name">{{review.author-name}}</p>
+    <p>{{review.author-title}}, {{review.author-org}}</p>
   </div>
 
 </article>
