@@ -2,11 +2,14 @@
 layout: default
 ---
 
-<div class="welcome">
+<div class="welcome" vocab="http://schema.org/" typeof="Service">
+  <meta property="serviceType" content="skin care"/>
   <div class="intro">
     <img src="{{site.github.url}}/assets/img/headshot3.png">
     <p class="hi">Hi, I'm Briana!</p>
-    <p>Cupcake ipsum dolor sit amet carrot cake sesame snaps caramels croissant. Powder marshmallow sugar plum. Cheesecake apple pie liquorice candy chocolate bar. Candy canes tart chupa chups pie sweet dessert chocolate bar sweet roll. Tart sesame snaps cheesecake wafer bear claw chupa chups. </p>
+    <p>
+      I'm a licensed esthetician working in <span property="areaServed" typeOf="City">Frisco</span>, <span property="areaServed" typeOf="State">Texas.</span>
+    </p>
   </div>
   <div class="feature-section">
     <div class="feature">
